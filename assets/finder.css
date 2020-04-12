@@ -1,0 +1,86 @@
+body{
+    font-family: Arvo, serif;
+    background: url(/assets/back.jpg) no-repeat center center ;
+    background-attachment: fixed;
+    background-size: cover; 
+    }
+form{
+    background: rgba(120, 109, 118, 0.2);
+    padding: 30px;
+    width: 100%;
+
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    }
+    select{
+        border: none;
+        background-color:rgba(0,0,0, 0.7);
+        color: white;
+        padding: 3px;
+        border-color: tomato;
+        border-radius: 5px;
+    }
+   #uu{
+        text-align: center;
+        color: white;
+        font-family: 'Solway';
+
+    }
+    
+    #uc{
+        text-align: center;
+        color: white;
+        font-family: 'Solway';
+
+    }
+    .ac:hover{
+        transform: scale(1.1);
+        transition: 0.1s;
+    }
+    .uk{
+        background-color:#8b0000;
+        }
+        .aa{
+            text-align: center;
+            text-decoration: none;
+            color: white;
+        }
+        .aa:hover{
+            
+            text-align: center;
+            text-decoration: none;
+            color: white;
+        }
+        .ac{
+            background-color: rgba(0,0,0, 0.7);
+            color: white;
+        padding: 10px;
+        margin: 20px;
+        width: 90px;
+        border: none;
+        border-bottom: royalblue;
+        }
+        
+    .acc{
+        background-color: rgba(0,0,0, 0.7);
+        color: white;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 10px;;
+    text-align: center;
+    width: 100%;
+    border: none;
+    border-bottom: royalblue;
+    }
+    .container{
+        margin: 10px;
+        padding: 20px;
+
+    }
+    @media only screen and (max-width: 600px) {
+select{
+    width: 100%;
+}        
+    }
+    

@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Noto Serif">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto Slab">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Acme">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Solway">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>City Stats</title>
+    
+<link type="text/css" rel="stylesheet" href="/assets/materialize.min.css" />
+<script src="/assets/materialize.min.js"></script>
+<link rel="stylesheet" href="/assets/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="/assets/display2.css"> 
+ <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+
+
+
+</head>
+<body>
+<h1 class="uy">
+    <%=state%></h1>
+
+
+<ul class="collapsible">
+        <% data.forEach(function(arr1){ %>
+        <li>
+          <div class="collapsible-header"><span class="cc">City Name:-</b> <%= arr1.district %></div>
+          <div class="collapsible-body"><span class="cc1">Total Cases:- <%= arr1.confirmed %></span></div>
+        </li>
+        <% });%>
+      </ul>
+
+      
+
+
+
+
+
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.collapsible');
+    var instances = M.Collapsible.init(elems,'');
+    
+  });
+    </script>
+
+</html>

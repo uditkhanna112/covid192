@@ -1,0 +1,78 @@
+body{
+    font-family: Arvo, serif;
+    background: url(/assets/back.jpg) no-repeat center center ;
+    background-attachment: fixed;
+    background-size: cover; 
+    
+}
+.collapsible{
+    border: none;
+}
+.collapsible-header{
+    font-size: 30px;
+    font-style:'Roboto Slab';
+    padding:5px;
+    margin-top: 5px;
+    color: white;
+    background-color: rgba(0, 0,0,0.7);
+border-radius: 10px;
+
+}
+.cc:hover{
+    color: #8b0000;
+}
+.cc{
+    font-size: 30px;
+    font-style:'Roboto Slab';
+    padding:5px;
+    color: white;
+
+}
+.cc1{
+    
+    font-size: 30px;
+    font-style:'Roboto Slab';
+    padding:25px;
+    border-radius: 10px;
+    color: white;
+background-color: rgba(0, 0,0,0.7);
+}
+.uy{
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    font-style: 'Acme';
+}
+.collapsible-body{
+    color: white;
+}
+    #uu{
+        color:white;
+        font-size: 25x;
+        font-style: italic;
+        padding: 7px;
+        margin: 2px;
+text-align: center;
+    }
+    .jumbotron{
+background-color: rgba(0, 0,0,0.7);
+height: 100%;
+    }
+    .container{
+        margin-top: 100px;
+    }
+
+    
+
+@media only screen and (max-width: 600px) {
+    #uu{
+        
+            color:white;
+            font-size: 30px;
+            font-style: italic;
+            padding: 7px;
+            margin: 2px;
+    text-align: center;
+        }   
+    
+}
